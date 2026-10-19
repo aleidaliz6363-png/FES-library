@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;  
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+}
+
+img{
+width: 100%;
+}
+
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 24px;
+} 
+
+.purple{
+ color: #7342d6;
+}
+
+.logo {
+ width: 160px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #7342d6;
+  font-size: 20px;
+  margin-left: 16px;
+  font-weight: bold;
+  padding: 8px 16px;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}
+
+.nav__link--primary {
+ border: 2px solid #7342d6;
+  border-radius: 4px;
+}
+
+.nav__link--primary:hover {
+  text-decoration: none;
+}
+
+#landing {
+  background-color: rgba(115, 66, 214, 0.1);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 80px);
+}
+
+.header-container {
+ width: 100%;
+ max-width: 720px;
+ margin: 0 auto;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
+
+.headr__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 56px;
+  color: #7342d6;
+  margin-bottom: 24px;
+  text-align: center;
+}
+ 
+h2{
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 32px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active{
+  transform: translateY(2px);
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #7342d6;
+  color: #fff;
+  border: none;
+}
+
+.header__image--wrapper{
+  padding: 20px;
+}
+
+.container{
+  padding: 56px 0; 
+}
+
+.row{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*
+  Highlights
+*/
+
+.highlight_wrapper {
+  display: flex;
+}
+
+.highlight {
+  padding: 0 24px;
+  width: calc(100% /3);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.highlight_img {
+  border: 2px solid #7342d6;
+  width: 100px;
+  height: 100px;
+ align-items: center;
+ justify-content: center;
+ border-radius: 4px;
+ font-size:  32px;
+ margin-bottom: 24px ;
+}
+
+.highlight_subtitle {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
