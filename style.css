@@ -136,11 +136,11 @@ button:active{
   margin: 0 auto;
 }
 
-/*
-  Highlights
-*/
+/* 
+Highlights
+*/ 
 
-.highlight_wrapper {
+.highlight__wrapper {
   display: flex;
 }
 
@@ -151,10 +151,12 @@ button:active{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .highlight_img {
   border: 2px solid #7342d6;
+  color: #7342d6;
   width: 100px;
   height: 100px;
  align-items: center;
@@ -167,4 +169,8 @@ button:active{
 .highlight_subtitle {
   font-size: 20px;
   margin-bottom: 16px;
+}
+
+.highlight__para {
+  line-height: 1.5;
 }
